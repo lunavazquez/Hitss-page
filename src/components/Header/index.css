@@ -1,0 +1,23 @@
+.header {
+  background: black;
+  position: sticky;
+  top:0;
+  height: 50px;
+  width: 100%;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  @media (max-width: 768px){
+    padding: 8px
+  }
+}
+
+@media (max-width: 768px){
+  .img-content1 img{
+    width: 100px;
+  }
+  .img-content2 img{
+    width: 120px;
+  }
+}

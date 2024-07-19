@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+}
+
+.text {
+  color: #fefefe;
+}
+
+@media (max-width: 768px){
+  .text {
+    font-size: 10px;
+  }
+  .logo{
+    width: 100px;
+  }
+}
