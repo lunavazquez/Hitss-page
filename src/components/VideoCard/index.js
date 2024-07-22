@@ -42,9 +42,7 @@ export default function VideoCard() {
         {items.map(({ id, name, image, text, url }) => {
           return (
             <div key={id} className="card">
-              {/* <div className="image"> */}
               <img src={image} alt="" />
-              {/* </div> */}
               <p className="name">{name}</p>
             </div>
           );

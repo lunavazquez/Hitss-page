@@ -9,8 +9,12 @@
   justify-content: center;
 }
 
+.card {
+  text-align: center;
+}
+
 @media (max-width: 768px){
-  .cards{
+  .cards {
     flex-wrap: wrap;
   }
 }

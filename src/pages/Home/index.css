@@ -6,13 +6,16 @@
 .title {
   color: #ffffff;
   text-align: center;
+  padding: 15px 0;
 }
 .second-container {
   background-color: #232323;
+  padding: 20px 0;
 }
 
 .container-text{
   color: #ffffff;
   text-align: center;
   font-size: 24px;
+  text-align: center;
 }

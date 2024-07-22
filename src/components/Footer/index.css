@@ -1,7 +1,9 @@
 .footer {
   display: flex;
+  height: 80px;
   justify-content: space-around;
   align-items: center;
+  border-top: 3px solid #353535;
   background-color: #000000;
 }
 
@@ -10,10 +12,15 @@
 }
 
 @media (max-width: 768px){
+  .footer {
+    height: 60px;
+  }
+
   .text {
     font-size: 10px;
   }
-  .logo{
+
+  .logo {
     width: 100px;
   }
 }
