@@ -1,4 +1,5 @@
 .footer {
+  border-top: 3px solid #353535;
   display: flex;
   justify-content: space-around;
   align-items: center;

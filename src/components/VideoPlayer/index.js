@@ -1,7 +1,11 @@
-import React from "react";
+import { useState } from "react";
 import "./index.css";
 
 export default function VideoPlayer() {
+  // const [url, setUrl] = useState(
+  // "https://www.youtube.com/embed/geYr0-Mlm-k?si=B7eUnvzZuC9uL66J"
+  // );
+
   return (
     <div>
       <div className="video-content">
